@@ -1,4 +1,8 @@
-
+/*******************************************************************************
+ * @file
+ * @author      Wynand Marais
+ * @copyright   (c) 2020 Wynand Marais, MIT License
+ ******************************************************************************/
 //static void escape(void * p)
 //{
 //  asm volatile("" : : "g"(p) : "memory");

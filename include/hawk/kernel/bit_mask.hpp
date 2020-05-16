@@ -1,7 +1,7 @@
 /*******************************************************************************
- * @file        bit_mask.hpp
- * @author      Wynand (Vinnie) Marais
- * @copyright   2020, MIT License
+ * @file
+ * @author      Wynand Marais
+ * @copyright   (c) 2020 Wynand Marais, MIT License
  *
  * These functions are used to calculate bit masks for manipulating strongly
  * typed register fields. These functions are to aid the programmer and reduce
@@ -45,25 +45,33 @@ namespace hawk
      * msb is passed in first, then the lsb to match documentation convention
      * for registers where ranges are specified as [msb:lsb].
      *
-     * Example 1
-     * ---------
+     * <b>Example 1</b>
+     *
      * To mask off the four least-significant-bits of a 32bit unsigned integer:
      *
-     *    val & hawk::bit_mask<unsigned int, int>(3, 0);
+     * @code
+     * val & bit_mask<unsigned int, int>(3, 0);
+     * @endcode
      *
      * This is equivalent to C:
      *
-     *    val & 0x0000000F;
+     * @code
+     * val & 0x0000000F;
+     * @endcode
      *
-     * Example 2
-     * ---------
+     * <b>Example 2</b>
+     *
      * To mask off the seven most-significant-bits of a 32bit unsigned integer:
      *
-     *    val & hawk::bit_mask<unsigned int, int>(31, 25);
+     * @code
+     * val & bit_mask<unsigned int, int>(31, 25);
+     * @endcode
      *
      * This is equivalent to C:
      *
-     *    val & 0xFE000000;
+     * @code
+     * val & 0xFE000000;
+     * @endcode
      *
      * @param[in] msb   The most-significant-bit (msb) of the mask. This is
      *                  inclusive, thus the msb bit will be part of the mask.

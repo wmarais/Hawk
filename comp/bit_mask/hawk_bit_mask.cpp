@@ -1,3 +1,8 @@
+/*******************************************************************************
+ * @file
+ * @author      Wynand Marais
+ * @copyright   (c) 2020 Wynand Marais, MIT License
+ ******************************************************************************/
 #include "../../include/hawk/kernel/bit_mask.hpp"
 
 unsigned int is_set(unsigned int val)

@@ -1,3 +1,8 @@
+/*******************************************************************************
+ * @file
+ * @author      Wynand Marais
+ * @copyright   (c) 2020 Wynand Marais, MIT License
+ ******************************************************************************/
 #include <bitset>
 
 unsigned int is_sub_val(unsigned int val)

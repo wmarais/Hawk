@@ -1,3 +1,8 @@
+################################################################################
+# @file
+# @author      Wynand Marais
+# @copyright   (c) 2020 Wynand Marais, MIT License
+################################################################################
 cmake_minimum_required(VERSION 3.10)
 
 project(hawk)
@@ -56,7 +61,7 @@ if(HAWK_CONF_BUILD_KERNEL)
 endif()
 
 
-add_subdirectory(/home/wmadmin/Hawk/comp/bit_mask)
+add_subdirectory(comp/bit_mask)
 
 
 ################################################################################
