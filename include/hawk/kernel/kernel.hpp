@@ -59,8 +59,5 @@ namespace hawk::kernel
       if(crit_sec_call_counter == 0)
         enable_interrupts();
     }
-
-
-
   };
 }

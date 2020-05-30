@@ -5,12 +5,22 @@
  ******************************************************************************/
 #pragma once
 
-namespace hawk
+#include "../memory.hpp"
+
+namespace hawk::kernel
 {
-  template <typename T> class queue
+  template <typename type_t> class vector final
   {
+    /** The list of elements in the vector. */
+    unique_ptr<type_t> elements_v;
 
-
+  public:
 
   };
 }
+
+
+
+
+
+

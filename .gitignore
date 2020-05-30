@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Editor and CMake artefacts
+*.autosave
+*.txt.user
+*.swp

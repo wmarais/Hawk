@@ -7,9 +7,11 @@
 
 namespace hawk::kernel
 {
-  class cpu_t final
+  class cpu_t
   {
   public:
+
+
 
   };
 }
